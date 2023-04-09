@@ -1,0 +1,23 @@
+import React from 'react';
+import './chatbot.css';
+
+function App() {
+  return (
+    <div className="container">
+      <h1>ChatGPT4 - The Ultimate Chatbot Platform</h1>
+      <div className="chatbox">
+        <div className="messages" id="messages">
+          <div className="message">
+            <p>Hi, how can I help you?</p>
+          </div>
+        </div>
+        <form id="chat-form">
+          <input type="text" id="user-input" autoComplete="off" placeholder="Type your message..." />
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  );
+}
+
+export default App;
