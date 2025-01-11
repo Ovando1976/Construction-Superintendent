@@ -1,0 +1,57 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node modules
+node_modules
+
+# Build output
+build
+dist
+
+# Dependency directories (if you have multiple sub-projects)
+**/node_modules
+
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Mac / Linux / Windows system files
+.DS_Store
+Thumbs.db
+
+# Coverage directory used by testing tools
+coverage
+
+# IDE / Editor-specific files
+.vscode/
+*.swp
+
+# If you use Parcel
+.cache
+
+# If you use ESLint
+.eslintcache
+
+# If you use Storybook
+storybook-static
+
+# If you use AWS Amplify (creates .exported for environment)
+.exported
+
+# If you ejected from Create React App and have config/
+config/*.js
+
+# If you use a monorepo approach or multiple subfolders
+# (ignore 'node_modules' repeated in subfolders)
+**/node_modules
+
+# Additional custom ignores
+# (Add any other files/folders your project doesn't want to track)
+.codegpt
